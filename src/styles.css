@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,600;0,700;1,200;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+    transition: 0.3s;
+    margin: auto;
+    padding: 2px;
+    background-color: rgba(124, 120, 120, 0.263);
+    font-family: 'Poppins', sans-serif;
+    color: rgb(107, 107, 109);
+}
+
+h1{
+    font-size: 70px;
+    line-height: 70px;
+    font-weight: 300;
+    margin: px;
+    color: #2e2929;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 400;
+    color: #2e2929;
+}
+
+.atharv-op{
+    text-align: center;
+}
+
+p{
+    margin: 0;
+    font-weight: 500;
+    font-size: 35px;
+    color: #3f3d3d;
+}
+
+
+.hero{
+    background: color #1c1d25;
+    height: 100vh;
+    margin-left: 2;
+    color: #949090;
+    font-weight: 7000;
+    font-size: 70px;
+}
+
+.hero-area{
+    display: flex; 
+    height: 700px;
+    justify-content: space-between;
+    padding: auto;
+    color: #413c3c;
+}
+
+.bottom-container{
+    background-color:#404143;
+    margin:0;
+    font-size: 50px;
+    padding:70px;
+    color: rgba(81, 83, 84, 0.532);
+    text-align: center;
+}
+
+.copyright{
+    color:#352f2f
+}
+
+footer{
+    margin-top: 200;
+    height: 80px;
+    padding: 0px;
+    background-color: #a6a6aa;
+}
+
+.footer-link{
+    color: #7e7e7e;
+    font-size: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+li{
+    width: 200px;
+    text-decoration: none;
+    display: inline;
+}
+
+.dp{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.responsive{
+    width: 80%;
+    height: 70%;
+}
+hr{
+   border-style:dotted;
+   border-width: 7px 0 0 0;
+   width: 3%;
+   color: #352f2f;
+   margin: auto; 
+}
+
+.button{
+    width: 200px;
+    height: 55px;
+    border-radius: 40px;
+    background-color:#4a4c70;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: rgb(79, 74, 140);
+}
+
+.button:active{
+    background-color: rgb(47, 60, 112);
+}
+
+.socials{
+    padding-bottom: 200px;
+}
+
+.social{
+    margin: 10px;
+}
+
+header{
+    display:flex;
+    justify-content:flex-end;
+    padding: 30px;
+}
+.sub-section{
+    display: flex;
+    text-align: center;
+}
+/*
+.sub-section{
+    height: 500px;
+    display: flex;
+    font-size: 20px;
+    justify-content:center
+    text align:center;
+    padding: 30px;
+}
+*/
+.work{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    justify-content:center
+    text align:center;
+    padding: 60px;
+}
+
+.work-image{
+    display: flex;
+}
+
+.DoK{
+    display: flex;
+    flex-direction: column;
+}
+
+.dok-info{
+margin-left: 50px;
+text-align: 
+}
+
+.dok-op{
+    width: 100%;
+}
+
+.dok-content{
+    font-size: 20px;
+    text-align: center;
+    color: #2e2929;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(60, 58, 56);
+}
+
+.ak{
+    text-align: center;
+    font-size: 20px;
+    color: #2e2929;
+}
+
+.work{
+    display: flex;
+    padding-top: 100px;
+    padding: 20px;
+}
+
+.work-image{
+    width: 500px;
+
+}
+
+.headshot {
+    width: 300px;
+    border-radius:200px ;
+}
+
+.headshot-container{
+    display: flex;
+    align-items: center;
+}
+
+.switch{
+    width: 80px;
+    height:40px;
+    border-radius: 20px;
+    background-color: rgb(61, 59, 59);
+    position: relative;
+}
+
+.flicker{
+  width: 30px;
+  height: 30px;
+  border-radius: 35px;
+  background-color: rgb(214, 213, 213); 
+  position: absolute; 
+  top: 5px;
+  left: 5px;
+  transition: 0.3s;
+  box-shadow:
+   inset 4px 4px 4px rgb(158, 158, 158);
+   inset -4px -4px 1px rgb(195 193 198 / 90%);
+
+}
+
+.dark {
+    background-color: rgb(89, 89, 92);
+    transition: 0.3s;
+}
+
+.moon{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0 0 rgb(104, 104, 104);
+    position: absolute;
+    top: 5px;
+    left:45px;
+}
+
+.dark .flicker{
+     transform: translateX(40px);
+}
+
+.dark > *{
+    color: rgb(87, 87, 87);
+}
+
+.hero-area{
+    height: 80vh;
+}
+
+.main-text{
+    width: 50%;
+    padding: 30px;
+    margin: left 40px; ;
+    color: #2e2929;
+}
+
+.content-text{
+    width: 50%;
+    padding: 30px;
+    margin: left 40px; ;
+}
+
+.square{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(46, 43, 43);
+    text-align: center;
+}
+
+.dark .square{
+    background-color: rgb(71, 71, 71);
+}
+
+@media only screen and (min-width:970px){
+    .square{
+        width: 48%;
+        margin: 30%;
+        height: 600px;
+
+    }
+    
+}
